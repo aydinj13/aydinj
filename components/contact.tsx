@@ -36,7 +36,7 @@ export default function Contact() {
         <a className="underline" href="mailto:example@gmail.com">
           ajoshi1336@gmail.com
         </a>{" "}
-        or through this form.
+        or through this form. NEW: Unfortunately, our form is currently down due to bugs. Just contact me directly!
       </p>
 
       <form
