@@ -3,8 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import firereads from "@/public/firereads.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
 
 export const links = [
   {
@@ -56,16 +55,10 @@ export const projectsData = [
   {
     title: "Fire Reads",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Using only frontend languages, I was able to develop a website that helps users find books and read samples. I am currently working on a Next JS version.",
     tags: ["HTML5", "CSS", "JavaScript"],
     imageUrl: firereads,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    link: "https://aydinj13.github.io/fire-reads/index.html"
   },
 ] as const;
 
