@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import firereads from "@/public/firereads.png";
+import casher from "@/public/casher.png"
 
 
 export const links = [
@@ -56,9 +57,17 @@ export const projectsData = [
     title: "Fire Reads",
     description:
       "Using only frontend languages, I was able to develop a website that helps users find books and read samples. I am currently working on a Next JS version.",
-    tags: ["HTML5", "CSS", "JavaScript"],
+    tags: ["HTML5", "CSS", "JavaScript", "Git"],
     imageUrl: firereads,
     link: "https://aydinj13.github.io/fire-reads/index.html"
+  },
+  {
+    title: "Casher",
+    description:
+      "I created a basic Expense tracker in Next JS using a special UI components library, shadcn-ui. I hope to improve it in the future!",
+    tags: ["Next JS", "Shadcn-ui", "Git", "Vercel"],
+    imageUrl: casher,
+    link: "https://casher.vercel.app"
   },
 ] as const;
 
