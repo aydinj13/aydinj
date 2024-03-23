@@ -67,7 +67,7 @@ export const projectsData = [
       "I created a basic Expense tracker in Next JS using a special UI components library, shadcn-ui. I hope to improve it in the future!",
     tags: ["Next JS", "Shadcn-ui", "Git", "Vercel"],
     imageUrl: casher,
-    link: "https://casher.vercel.app"
+    link: "https://cash-er.vercel.app"
   },
 ] as const;
 
